@@ -1,0 +1,28 @@
+[DATABASE]
+#
+host = 50.23.190.57
+username = xxxxxx
+password = ******
+port = 3306
+database = databasename
+
+[HTTP]
+#
+baseurl = http://xx.xxxx.xx
+port = 8080
+timeout = 1.0
+
+[EMAIL]
+#邮箱必须开启stmp服务后才可以正常发送邮件
+mail_host = smtp.126.com
+mail_user = lisn1024
+mail_pass = UVUVZLOALHEAAQQB
+mail_port = 25
+sender = lisn1024@126.com
+receiver = lishengnantest@163.com,1473147172@qq.com,1520456621@qq.com,18332300241@163.com
+subject = 安全审核质量测试23版本
+content = Hi 各位：
+
+      阿波罗质量审核v18.2测试已完成，下附测试质量报告。感谢各位配合！
+testuser = Someone
+on_off = 1
